@@ -4,10 +4,10 @@
 ![enter image description here][1]
 
 
-  [1]: https://github.com/coffin5257/anying_php/blob/master/lesson_2/exercise_1.png
+  [1]: https://github.com/coffin5257/anying_php/raw/master/lesson_2/exercise_1.png
 
 ##2.创建一个多级嵌套框架，具体样式见示意图，要求实现导航页面（页面在框架中进行切换）
 ![enter image description here][2]
 
 
-  [2]: https://github.com/coffin5257/anying_php/blob/master/lesson_2/exercise_2.png
+  [2]: https://github.com/coffin5257/anying_php/raw/master/lesson_2/exercise_2.png
