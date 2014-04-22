@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User register</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+	<table border="1" align="left" rules="all">
+		<tr>
+			<td rowspan="10" width="120">
+					<p align="center"><strong>注册步骤</strong></p>
+					<p>1、录入用户信息</p>
+					<p>2、向用户发送确认邮件</p>
+					<p>3、用户获得用户名和密码</p>
+					<p>4、登陆网站</p>
+				</ul>
+			</td>
+			<td width="20"></td>
+			<th colspan="2">
+				新用户注册
+			</th>
+		</tr>
+		<tr>
+			<td></td>
+			<td width="210">
+				<strong>用户名：</strong><br>
+				注册用户长度限制为1-15字节
+			</td>
+			<td width="210">
+				<form><input type="text" name="name"></form>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+				<strong>性别:</strong><br>
+				请选择您的性别
+			</td>
+			<td>
+				<form>
+					<input type="radio" name="male">男孩
+					<input type="radio" name="female">女孩
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+				<strong>密码(至少6位)：</strong><br>
+				请输入密码，区分大小写。<br>
+				请不要输入任何类似‘*’、‘ ’或 HTML 字符 
+			</td>
+			<td>
+				<form><input type="password" name="password"></form>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+				<strong>密码(至少6位)：</strong><br>
+				请再输入一遍确认
+			</td>
+			<td>
+				<form><input type="password" name="poaawordagain"></form>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+				<strong>密码问题：</strong><br>
+				忘记密码的提示问题
+			</td>
+			<td>
+				<form><input type="text" name="pwproblew"></form>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+				<strong>问题答案：</strong><br>
+				忘记密码的提示问题答案，用于取回论坛密码
+			</td>
+			<td>
+				<form><input type="text" name="pwanswer"></form>
+			</td>
+		</tr>
+		<tr>
+			<td rowspan="2"></td>
+			<td>
+				<strong>Email地址：</strong><br>
+				请输入有效的邮件地址，这将使您能用到论坛中的所以功能
+			</td>
+			<td>
+				<form><input type="text" name="email"></form>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">
+				<button type="button">提交</button>
+				<button type="button">重置</button>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3" height="20">
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
