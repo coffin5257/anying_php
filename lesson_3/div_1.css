@@ -1,0 +1,49 @@
+#body {
+	height: 1000px;
+	margin: 2px;
+}
+
+#header {
+	width: 100%;
+	height: 100px;
+	background-color: #0f0
+}
+
+#content {
+	width: 100%;
+	margin: 0;
+	padding: 1px,0,1px,0;
+	float: left;
+}
+
+#leftbar {
+	width: 25%;
+	height: 800px;
+	margin: 1px;
+	background-color: #fde;
+	float: left;
+}
+
+#center {
+	width: 50%;
+	height: 800px;
+	margin: 1px;
+	background-color: #c23;
+	float: left;
+}
+
+#rightbar {
+	width: 24.3%;
+	height: 800px;
+	margin: 1px;
+	background-color: #ccc;
+	float: right;
+}
+
+#footer {
+	margin: 1px;
+	width: 100%;
+	height: 100px;
+	float: left;
+	background-color: #0dd;
+}
