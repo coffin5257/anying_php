@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>计算器</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script type="text/javascript" src="calc.js"></script>
+</head>
+<body>
+	<form>
+		<input id="a" type="text" name="a" value="" />
+		<select id="select">
+			<option id="add">+</option>
+			<option value="minus">-</option>
+			<option value="multiply">*</option>
+			<option value="division">/</option>
+		</select>
+		<input id="b" type="text" name="b" value=""/>=
+		<input id="result" type="text" name="result" />
+		<input type="submit" name="submit" value="计算" onclick="calc();return false;" />
+	</form>
+</body>
+</html>
