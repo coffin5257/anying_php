@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js 乘法口诀</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<style type="text/css">
+		td {background-color: #08ace7;}
+	</style>
+</head>
+<body id="body">
+<table id="table">
+<script language="javascript">
+for (var i = 1; i <= 9; i++) {
+	document.write('<tr>');
+	for (var j = 1; j<=i;j++) {
+		var s = i*j;
+		var content = '<td>'+i+'*'+j+'='+s+'</td>';
+		document.write(content);
+	};
+	document.write('</tr>');
+};
+</script>
+</table>
+</body>
+</html>

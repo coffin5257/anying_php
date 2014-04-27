@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js print title</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body id="body">
+<script language="javascript">
+function create(n) {
+	alert(n);
+	var body = document.getElementById("body");
+	var str = '<h' + n +'>标题 h'+n+'</h'+n+'>';
+	body.innerHTML += str;
+}
+
+for (var i = 1; i <=6; i++) {
+	create(i);
+};
+</script>
+</body>
+</html>
